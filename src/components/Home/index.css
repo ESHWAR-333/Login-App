@@ -1,0 +1,31 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.subContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding: 100px 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+.button {
+  padding: 10px 30px;
+  border: 0px solid;
+  background-color: #f8fafc;
+  color: #303150;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-radius: 6px;
+}
